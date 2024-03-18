@@ -8,7 +8,7 @@ describe("Final App function should contain a BANNER with title", () => {
 
   test('renders Banner with h1 text', () => {
     render(<App />);
-    const element = screen.getByText(/Orbit Report/i);
+    const element=screen.getByText(/Orbit Report/i);
     expect(element).toBeInTheDocument();
   });
   });
